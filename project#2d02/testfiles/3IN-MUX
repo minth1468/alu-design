@@ -1,0 +1,21 @@
+simulator lang=spectre
+v0 (vdd! 0) vsource type=dc dc=1.2
+v1 (OP0 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
++ width=10n period=20n
+v2 (OP1 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
++ width=20n period=40n
+v3 (OP2 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
++ width=40n period=80n
+
+ca (ena0 0) capacitor c=50f
+cb (ena1 0) capacitor c=50f
+cc (ena2 0) capacitor c=50f
+cd (ena3 0) capacitor c=50f
+ce (ena4 0) capacitor c=50f
+cf (ena5 0) capacitor c=50f
+cg (ena6 0) capacitor c=50f
+ch (ena7 0) capacitor c=50f
+
+save ca:currents
+save cb:currents
+save :pwr
