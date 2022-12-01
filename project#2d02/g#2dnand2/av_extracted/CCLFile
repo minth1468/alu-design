@@ -19,12 +19,12 @@ filter_res \
 	 -merge_parallel_res false \
 	 -min_res 0.001
 input_db -type assura \
-	 -design_cell_name "nand layout project-01-static-cmos" \
+	 -design_cell_name "g-nand2 layout project-02" \
 	 -directory_name "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/lvs-run" \
 	 -format "DFII" \
-	 -run_name "nand"
+	 -run_name "g-nand2"
 log_file \
-	 -file_name "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/lvs-run/qrc.nand.log"
+	 -file_name "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/lvs-run/qrc.g-nand2.log"
 output_db -type extracted_view \
 	 -cap_component "pcapacitor" \
 	 -cap_property_name "c" \
@@ -39,7 +39,7 @@ output_db -type extracted_view \
 	 -view_name "av_extracted"
 output_setup \
 	 -directory_name "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/lvs-run" \
-	 -temporary_directory_name "nand"
+	 -temporary_directory_name "g-nand2"
 process_technology \
 	 -technology_corner \
 		"rcx_typical" \

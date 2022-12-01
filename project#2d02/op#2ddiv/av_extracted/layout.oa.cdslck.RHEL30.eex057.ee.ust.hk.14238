@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      tminab
+HostName                       eex057.ee.ust.hk
+ProcessIdentifier              14238
+ProcessCreationTime_UTC        1669899496
+ProcessCreationTime_Readable   Thu Dec  1 20:58:16 2022 HKT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project#2d02/op#2ddiv/av_extracted/layout.oa.cdslck
+TimeEditLocked                 Thu Dec  1 21:27:50 2022 HKT

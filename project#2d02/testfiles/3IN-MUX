@@ -6,6 +6,8 @@ v2 (OP1 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
 + width=20n period=40n
 v3 (OP2 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
 + width=40n period=80n
+v4 (ena 0) vsource type=pulse val0=0 val1=1.2 delay=0 rise=0.2n fall=0.2n
++ width=80n period=160n
 
 ca (ena0 0) capacitor c=50f
 cb (ena1 0) capacitor c=50f

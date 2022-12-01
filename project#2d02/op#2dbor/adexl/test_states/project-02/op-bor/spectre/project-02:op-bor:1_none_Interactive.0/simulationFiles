@@ -1,0 +1,19 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles ((t "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project#2d02/testfiles/4IN-B"))
+allDspfFiles nil
+allIncludedPaths ((t "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project#2d02/simultaion"))
+allPspiceFiles nil
+allSpefFiles nil
+allStimulusFiles nil
+allVectorFiles nil
+definitionFiles ("/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project#2d02/testfiles/4IN-B")
+dspfFile nil
+hlcheck "off"
+includePath "/afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project#2d02/simultaion"
+pspiceFile nil
+spefFile nil
+stimulusFile nil
