@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      tminab
+HostName                       eex057.ee.ust.hk
+ProcessIdentifier              930
+ProcessCreationTime_UTC        1670046134
+ProcessCreationTime_Readable   Sat Dec  3 13:42:14 2022 HKT
+AppIdentifier                  /usr/eelocal/cadence/ic617-706/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /afs/ee.ust.hk/staff/ee/tminab/5000Cadence/project2/2bit_adder/constraint/prop.cfg
+TimeEditLocked                 Sat Dec  3 16:11:50 2022 HKT

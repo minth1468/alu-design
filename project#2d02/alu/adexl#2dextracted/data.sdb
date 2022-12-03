@@ -64,7 +64,7 @@
 						<value>spectre</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR/test_states</value>
@@ -107,7 +107,7 @@
 						<value>1-sub_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -151,7 +151,7 @@
 						<value>2-mul_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -195,7 +195,7 @@
 						<value>3-div_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -239,7 +239,7 @@
 						<value>4-rsh_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -283,7 +283,7 @@
 						<value>5-lsh_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -327,7 +327,7 @@
 						<value>6-bor_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -371,7 +371,7 @@
 						<value>7-band_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>av_extracted</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
