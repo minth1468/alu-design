@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      qkmli
+HostName                       eex054.ee.ust.hk
+ProcessIdentifier              26522
+ProcessCreationTime_UTC        1669860601
+ProcessCreationTime_Readable   Thu Dec  1 10:10:01 2022 HKT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/ee.ust.hk/staff/ee/qkmli/5000Cadence/project2/inv/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Dec  1 10:13:12 2022 HKT
