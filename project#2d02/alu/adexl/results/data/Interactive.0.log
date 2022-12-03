@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Dec  3 19:38:09 2022 
+Best design point: 1
+Design specs: 
+	0-add	corner	Nominal - 
+	1-sub	corner	Nominal - 
+	2-mul	corner	Nominal - 
+	3-div	corner	Nominal - 
+	4-rsh	corner	Nominal - 
+	5-lsh	corner	Nominal - 
+	6-bor	corner	Nominal - 
+	7-band	corner	Nominal - 
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Sat Dec  3 19:59:22 2022 
