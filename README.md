@@ -6,7 +6,7 @@ Cadence files of an ALU design.
 
 ![alt text](https://github.com/minth1468/alu-design/blob/master/project%232d02/readme/alu-symbol.png?raw=true)
 
-The ALU inputs consists of two 2-bit inputs (A1 - A0 and B1 - B0) as operands, a 3-bit input (OP0 - OP2) as the opcode specifying the desired arithmetic or logic operation to be performed, and a 1-bit enable input (ena) to enable or disable the ALU. The outputs consists of a 4-bit output (O0 - O3) as the result and a 3-bit output (V01, V2 and V3) as the valid bits of the corresponding outputs. The Operation modes of the ALU are as follows.
+The ALU inputs consists of two 2-bit inputs (`A1` - `A0` and `B1` - `B0`) as operands, a 3-bit input (`OP0` - `OP2`) as the opcode specifying the desired arithmetic or logic operation to be performed, and a 1-bit enable input (`ena`) to enable or disable the ALU. The outputs consists of a 4-bit output (`O0` - `O3`) as the result and a 3-bit output (`V01`, `V2` and `V3`) as the valid bits of the corresponding outputs. The Operation modes of the ALU are as follows.
 
 |Type of Operation | Opcode | Output Format | Valid Bits (V01) | Valid Bit (V2)| Valid Bit (V3)|
 |---|---|---|---|---|---|
@@ -55,18 +55,18 @@ All simulation results (`.csv` files + waveforms) are located in `alu-design/pro
 
 ### Delay Calculation
 
-$$t_{p, \mathrm{add}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.560 \mathrm{ns}$$
+$t_{p, \mathrm{add}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.560 \mathrm{ns}$
 
-$$t_{p, \mathrm{sub}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.536 \mathrm{ns}$$
+$t_{p, \mathrm{sub}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.536 \mathrm{ns}$
 
-$$t_{p, \mathrm{mul}} = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.548 \mathrm{ns}$$
+$t_{p, \mathrm{mul}} = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.548 \mathrm{ns}$
 
-$$t_{p, \mathrm{div}}  = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.560 \mathrm{ns}$$
+$t_{p, \mathrm{div}}  = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.560 \mathrm{ns}$
 
-$$t_{p, \mathrm{lsh}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.397 \mathrm{ns}$$
+$t_{p, \mathrm{lsh}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.397 \mathrm{ns}$
 
-$$t_{p, \mathrm{rsh}}  = t_{p, \mathrm{O0}} = \frac{t_{plh, \mathrm{O0}}+t_{phl, \mathrm{O0}}}{2} = 0.397 \mathrm{ns}$$
+$t_{p, \mathrm{rsh}}  = t_{p, \mathrm{O0}} = \frac{t_{plh, \mathrm{O0}}+t_{phl, \mathrm{O0}}}{2} = 0.397 \mathrm{ns}$
 
-$$t_{p, \mathrm{bor}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.434 \mathrm{ns}$$
+$t_{p, \mathrm{bor}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.434 \mathrm{ns}$
 
-$$t_{p, \mathrm{band}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.405 \mathrm{ns}$$
+$t_{p, \mathrm{band}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.405 \mathrm{ns}$
