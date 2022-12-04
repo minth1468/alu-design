@@ -1,4 +1,4 @@
-# alu-design
+# ALU-design
 
 Cadence files of an ALU design.
 
@@ -55,18 +55,34 @@ All simulation results (`.csv` files + waveforms) are located in `alu-design/pro
 
 ### Delay Calculation
 
-$t_{p, \mathrm{add}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.560 \mathrm{ns}$
+Delay of ADD:
 
-$t_{p, \mathrm{sub}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.536 \mathrm{ns}$
+$$t_{p, \mathrm{add}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.560 \mathrm{ns}$$
 
-$t_{p, \mathrm{mul}} = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.548 \mathrm{ns}$
+Delay of SUB:
 
-$t_{p, \mathrm{div}}  = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.560 \mathrm{ns}$
+$$t_{p, \mathrm{sub}} = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.536 \mathrm{ns}$$
 
-$t_{p, \mathrm{lsh}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.397 \mathrm{ns}$
+Delay of MUL:
 
-$t_{p, \mathrm{rsh}}  = t_{p, \mathrm{O0}} = \frac{t_{plh, \mathrm{O0}}+t_{phl, \mathrm{O0}}}{2} = 0.397 \mathrm{ns}$
+$$t_{p, \mathrm{mul}} = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.548 \mathrm{ns}$$
 
-$t_{p, \mathrm{bor}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.434 \mathrm{ns}$
+Delay of DIV:
 
-$t_{p, \mathrm{band}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.405 \mathrm{ns}$
+$$t_{p, \mathrm{div}}  = t_{p, \mathrm{O2}} = \frac{t_{plh, \mathrm{O2}}+t_{phl, \mathrm{O2}}}{2} = 0.560 \mathrm{ns}$$
+
+Delay of LSH:
+
+$$t_{p, \mathrm{lsh}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.397 \mathrm{ns}$$
+
+Delay of RSH:
+
+$$t_{p, \mathrm{rsh}}  = t_{p, \mathrm{O0}} = \frac{t_{plh, \mathrm{O0}}+t_{phl, \mathrm{O0}}}{2} = 0.397 \mathrm{ns}$$
+
+Delay of BOR:
+
+$$t_{p, \mathrm{bor}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.434 \mathrm{ns}$$
+
+Delay of BAND:
+
+$$t_{p, \mathrm{band}}  = t_{p, \mathrm{O1}} = \frac{t_{plh, \mathrm{O1}}+t_{phl, \mathrm{O1}}}{2} = 0.405 \mathrm{ns}$$
